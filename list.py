@@ -117,13 +117,21 @@ print(result)
 
 
 
-
-
-
-
-
 sq=[]
 sq=[i for i in range(8) if i%2==0]   #print even numbers upto 8 by list comprehension.
 print(sq)
+
+
+#matrix 
+matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+for row in matrix:
+    for col in row:
+        print(col, end=" ")
+    print("\n")
+
 
 

@@ -23,3 +23,5 @@ print(a or b)
 num3 = int(input("enter any number: ")) #input and type casting
 num4= int(input("Enter another humber to add: "))
 print(num3+num4)
+
+
