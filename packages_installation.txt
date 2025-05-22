@@ -1,0 +1,16 @@
+~~~packages installation notes~~~
+
+python -m pip install pandas #to install pandas and all the dependencies of pandas 
+python -m pip list #to list all the installed packages 
+python -m pip show pandas
+python -m pip install pandas == 2.2.1 #specific version download
+ python -m pip freeze > requirements.txt #to sepcify all the packages names and version in .txt file
+python -m pip install -r requirements.txt  #to install all the requirements from the requirements.txt file
+python -m venv venv #virtually in specific folder, folder based python (analogy: small python inside python)
+
+#to activate 
+cd venv #go to that directory 
+cd .\scripts\
+.\activate
+
+
