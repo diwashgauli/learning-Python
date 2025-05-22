@@ -86,3 +86,35 @@ def calculate_price(unit_price,qty=1,dis=0.1): #parameters with default argument
 price=calculate_price(100,3,0.1)
 print(price)
 
+#args
+def example (*args):
+    print(type(args))
+    print(args)
+example(1,2,3,4,5)
+
+
+#kwargs
+def example (**kwargs):
+    print(type(kwargs))
+    print(kwargs)
+
+example(name="abc",roll=12)
+
+
+
+#args and kwargs together
+def example (*args ,**kwargs):
+    print(type(kwargs))
+    print(type(args))
+    print(args)
+    print(kwargs)
+
+example(1,2,3,4,5,name="abc",roll=12)
+
+
+
+#nested functions can be considered as a recursive function there is also a term called decorator which is a nested function 
+# and closure 
+
+
+
